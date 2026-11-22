@@ -38,7 +38,7 @@ AOD service version| 8.9.36.23
 
 ## 🚀 Installation
 
-1. Download the latest ZIP from the "Releases" (../../releases) section.
+1. Download the latest ZIP from the [Releases](https://github.com/FlowingTurnip46/AOD-Native-Enabler/releases/latest) page.
 2. Open KernelSU.
 3. Install the downloaded ZIP as a module.
 4. Reboot your device.
