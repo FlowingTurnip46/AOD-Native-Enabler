@@ -4,9 +4,9 @@ A KernelSU module that enables Samsung's native Always On Display service on the
 
 This project is an adaptation of Raphael Solis's original Galaxy A16 module, with device-specific compatibility changes and fixes developed for the Galaxy A17 4G.
 
-«Status: Experimental, confirmed working on the maintainer's Galaxy A17 4G.»
+Status: Experimental, confirmed working on the maintainer's Galaxy A17 4G.
 
-✨ Features
+## ✨ Features
 
 - Enables Samsung's native Always On Display service.
 - Systemless installation through KernelSU.
@@ -16,7 +16,7 @@ This project is an adaptation of Raphael Solis's original Galaxy A16 module, wit
 - Checks device model, firmware fingerprint and AOD APK integrity.
 - Automatically prevents mounting on unverified firmware builds.
 
-📱 Compatibility
+## 📱 Compatibility
 
 Component| Configuration
 Device| Samsung Galaxy A17 4G
@@ -27,16 +27,16 @@ Root manager| KernelSU
 Verified firmware| A175FXXU7DZJ3_OXM7DZJ5
 AOD service version| 8.9.36.23
 
-Important: Compatibility with other firmware versions, the A17 5G, or other Samsung devices has not been established.
+**Important: Compatibility with other firmware versions, the A17 5G, or other Samsung devices has not been established.**
 
-📋 Requirements
+## 📋 Requirements
 
 - Samsung Galaxy A17 4G (SM-A175F).
 - Verified One UI 9 firmware listed above.
 - KernelSU installed and functioning.
 - Stock Samsung ClockPack app installed and enabled.
 
-🚀 Installation
+## 🚀 Installation
 
 1. Download the latest ZIP from the "Releases" (../../releases) section.
 2. Open KernelSU.
@@ -46,7 +46,7 @@ Important: Compatibility with other firmware versions, the A17 5G, or other Sams
 
 Do not disable or uninstall Samsung ClockPack. The module relies on the stock app remaining installed and enabled.
 
-⚙️ Technical Details
+## ⚙️ Technical Details
 
 The module installs Samsung's native AOD service through a systemless KernelSU overlay.
 
@@ -61,7 +61,7 @@ The fix clears the conflicting "SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_CLOCKPACK_
 
 This allows Samsung's AOD service to initialize in AOD mode without removing the stock ClockPack application.
 
-🛠️ Troubleshooting
+## 🛠️ Troubleshooting
 
 If AOD does not appear or the service crashes:
 
@@ -73,19 +73,19 @@ If AOD does not appear or the service crashes:
 
 Avoid manually modifying system files or deleting AOD application data as an initial troubleshooting step.
 
-👥 Credits & Contributors
+## 👥 Credits & Contributors
 
 - Raphael Solis: Original Galaxy A16 One UI 9 Native AOD module and implementation.
 - qzeeq: Galaxy A17 4G compatibility work, installer modifications, permission configuration, floating-feature fix, testing and documentation.
 - Samsung: Original AOD and ClockPack software.
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 This is an unofficial community project. It is not affiliated with, endorsed by, or supported by Samsung.
 
 This module is experimental and provided without warranty. Root modifications can cause system instability or boot issues. Always keep a backup and a recovery method available.
 
-📜 Licensing
+### 📜 Licensing
 
 This project is derived from Raphael Solis's original A16 implementation. Please consult the original repository's licence and obtain permission where required before redistributing modified versions.
 
