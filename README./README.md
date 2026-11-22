@@ -1,4 +1,4 @@
-One UI 9 Native AOD Enabler for Galaxy A17 4G
+# One UI 9 Native AOD Enabler for Galaxy A17 4G
 
 A KernelSU module that enables Samsung's native Always On Display service on the Samsung Galaxy A17 4G (SM-A175F).
 
